@@ -1,5 +1,94 @@
+
 body{
-  font: 100%;
-  color: red;
-  background-color: pink;
+  background-color: #FFEAF7;
+  font-family: sans-serif;
+}
+* {
+  margin: 0;
+  padding:0;
+  /* border: 1px dotted black; */
+}
+
+
+/* nav bar  */
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 8%;
+  background-color: #F62DAE;
+  padding: none;
+  margin: none;
+}
+#homeIcon {
+  display:flex;
+  justify-content: flex-start;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top:1%;
+  padding-bottom:1%;
+}
+.navBar p {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top:1%;
+  padding-bottom:1%;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* NAVBAR END */
+
+/* HEADER START */
+
+.header {
+  margin-left: 5%;
+  padding-right: none;
+  margin-right: none;
+  display: flex;
+  /* flex-flow: row wrap; */
+  /* justify-content: flex-start; */
+  width:100%;
+  /* margin-bottom: 2%; */
+}
+.headerText {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  padding-left: 3%;
+}
+.headerText h1 {
+  font-size: 5em;
+  color: #F6C28B;
+}
+.headerText h3 {
+  font-size: 1em;
+  width: 40%;
+  height: auto;
+  padding:1%;
+  margin-left: 2%;
+  margin-top:2%;
+  margin-bottom:2%;
+  border-radius: 5px;
+  background-color: #d8d8d8;
+}
+.headerText button {
+  width:33%;
+  margin: auto;
+  font-size: 2rem;
+  margin-top: 4%;
+  background-color: #F6C28B;
+  border-radius: 50px;
+}
+
+#shapesHeader {
+  margin: none;
+  padding-right: none;
+}
+/*HEADER DONE*/
+hr {
+  width: 100%;
+  height:1%;
 }

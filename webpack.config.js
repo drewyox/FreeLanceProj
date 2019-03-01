@@ -23,7 +23,26 @@ module.exports = {
           'style-loader',
           'css-loader'
         ]
-      }
+      },
+      {
+        test: /\.(gif|png|jpe?g)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'assets/images/'
+            }
+          }
+        ]
+      },
+
+      {
+        test:/\.html$/,
+        use: [
+          'html-loader'
+        ]
+      },
 
       // configurations for loaders will go here
     ]
