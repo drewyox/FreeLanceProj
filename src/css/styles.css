@@ -56,6 +56,7 @@ body{
   margin-right: none;
   display: flex;
   flex-direction: row;
+  margin-bottom:3%;
 }
 .headerText {
   display: flex;
@@ -90,12 +91,9 @@ body{
 }
 
 #shapesHeader {
-  margin: 2%;
-  margin-right:0;
-  padding-right: none;
   width:100%;
-  max-width:auto;
-  max-height:auto;
+  max-height: 400px;
+  max-width: 600px;
 }
 /*HEADER DONE*/
 
@@ -111,5 +109,124 @@ hr {
   width:100vw;
 }
 .runner img {
-  width:100vw
+  width:100vw;
+  height: 20%;
+}
+
+
+.bodyContent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  margin-bottom: 6%;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column {
+  padding:5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.column h2 {
+  font-size: 4rem;
+  color: grey;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: silver;
+}
+
+.background p {
+  color:white;
+  padding:3%;
+  font-size: 2rem;
+}
+.background button {
+  background-color: #75dbcd;
+  color: #f62dae;
+  font-size: 3rem;
+}
+.bodyContent img {
+  width:30%;
+  max-height: 70%;
+}
+
+@media screen and (max-width: 1260px) {
+  #shapesHeader {
+
+  }
+}
+
+@media screen and (max-width: 770px){
+  .header{
+    margin:auto;
+    text-align: center;
+  }
+  .container{
+    width:770px;
+  }
+  #shapesHeader {
+    display: none;
+  }
+  .header {
+    justify-content: center;
+  }
+  .headerText h3 {
+    margin: auto;
+    justify-content: center;
+  }
+  .bodyContent button {
+    font-size: 1.5em;
+  }
+  .background p {
+    color:white;
+    padding:3%;
+    font-size: 1rem;
+  }
+  .column h2 {
+    font-size: 2rem;
+    color: grey;
+    margin:auto;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .bodyContent img {
+    display: none;
+  }
+  #space {
+    width:100%;
+    height: 20%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container{
+    width:425px;
+  }
+  .header{
+    margin: auto;
+  }
+  .headerText h1 {
+    margin:auto;
+    text-align: center;
+    font-size: 2em;
+    width: 425px;
+  }
+  .headerText h3 {
+    font-size: 1em;
+  }
+  #space {
+    width:100%;
+    height: 20%;
+  }
+
 }
