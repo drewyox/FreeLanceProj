@@ -8,10 +8,13 @@
 
 _This is a mockup of a website for a co-work space business. The website will include pages for the landing page, events, amenities, forum, membership, and contact._
 
-
 ## Setup/Installation Requirements
 
-* _No Setup/Installation Required_
+* _Make sure you have NODE installed on your computer._
+* _After you have node installed, clone the repository from https://github.com/drewyox/FreeLanceProj ._
+* _After than, run npm install in your terminal._
+* _This should download and install all the dependencies as listed in the package.json file._
+
 
 # _Images of Sketches_
 ![Image1](20190222_165535.jpg)
@@ -19,6 +22,11 @@ _This is a mockup of a website for a co-work space business. The website will in
 ![Image3](20190222_165543.jpg)
 ![Image4](20190222_165538.jpg)
 ![Image5](20190222_165529.jpg)
+
+# _Screen Shots of WireFrame_
+
+![Image6](wireFrame.png)
+![Image7](symbols.png)
 
 ## User Stories
 
