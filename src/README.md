@@ -42,7 +42,20 @@ _This is a mockup of a website for a co-work space business. The website will in
 
 ## Known Bugs
 
-_There are no known bugs._
+* _There are no known bugs._
+
+
+## Responsiveness
+
+* _The project has basic media queries that resize the text, stack objects that were oriented in rows, and hide certain images at just above standard Tablet (770px) and mobile device (550px) pixel sizes._
+
+## Technologies Used
+
+* _This project uses Node Project Manager to facilitate proper CSS HTML and dev server functionality_
+
+## Developmental Roadmap
+
+* _While there is a lot to continue on this project, I wish to refine my css skills more in order to get the responsiveness of the header image as I envisioned it, as well as the stylings for boxes. I also wish to include multiple pages with functioning links._
 
 ### License
 
