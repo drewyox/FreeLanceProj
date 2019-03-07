@@ -91,7 +91,7 @@ body{
 }
 
 #shapesHeader {
-  width:100%;
+  width:100vw;
   max-height: 400px;
   max-width: 600px;
 }
@@ -161,11 +161,12 @@ hr {
 
 @media screen and (max-width: 1260px) {
   #shapesHeader {
-
+    height: 40vw;
+    width: 40vw;
   }
 }
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 1000px){
   .header{
     margin:auto;
     text-align: center;
@@ -208,7 +209,7 @@ hr {
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 580px) {
   .container{
     width:425px;
   }
