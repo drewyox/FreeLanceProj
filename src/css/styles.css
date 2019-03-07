@@ -161,8 +161,18 @@ hr {
 
 @media screen and (max-width: 1260px) {
   #shapesHeader {
-    height: 40vw;
-    width: 40vw;
+    width: 40%;
+    justify-content: center;
+  }
+
+  .headerText {
+    padding: 0;
+    margin: none;
+    max-width: 60%;
+    /* min-width: 100%; */
+  }
+  .headerText h1 {
+    width: 60%;
   }
 }
 
@@ -174,12 +184,10 @@ hr {
   .container{
     width:770px;
   }
-  #shapesHeader {
-    display: none;
-  }
   .header {
     justify-content: center;
   }
+
   .headerText h3 {
     margin: auto;
     justify-content: center;
@@ -209,18 +217,22 @@ hr {
   }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 1000px) {
   .container{
     width:425px;
   }
+  #shapesHeader {
+    display: none;
+  }
   .header{
     margin: auto;
+    max-width:425px;
   }
   .headerText h1 {
     margin:auto;
     text-align: center;
     font-size: 2em;
-    width: 425px;
+    width: 100%;
   }
   .headerText h3 {
     font-size: 1em;
