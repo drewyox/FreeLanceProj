@@ -63,7 +63,6 @@ body{
   flex-direction: column;
   padding-top: 5%;
   padding-left: 3%;
-  min-width:600px;
 }
 .headerText h1 {
   font-size: 5em;
@@ -71,7 +70,7 @@ body{
 }
 .headerText h3 {
   font-size: 1em;
-  width: 220px;
+  /* max-width: 220px; */
   height: auto;
   padding:1%;
   margin-left: 2%;
@@ -106,7 +105,7 @@ hr {
 .runner {
   display: flex;
   justify-content: center;
-  width:100vw;
+  width:100%;
 }
 .runner img {
   width:100vw;
